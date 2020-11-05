@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Modal  starting-->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-title">Add a New User</div>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="riyaqas-form-wrap">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="single-input-wrap">
+                                    <input type="text" class="single-input" placeholder="User Name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="single-input-wrap">
+                                    <input type="text" class="single-input" placeholder="Phone">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="single-input-wrap">
+                                    <input type="text" class="single-input" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="col-md-12 d-flex">
+                                    <h6 class="gender-style">Gender</h6>
+                                    <label class="radio-inline mr-1">
+                                        <input type="radio" name="optradio" > Male
+                                      </label>
+                                      <label class="radio-inline">
+                                        <input type="radio" name="optradio"> Female
+                                    </label> 
+                            </div>
+                            <div class="col-12 text-center">
+                                <a class="btn btn-blue btn-block" href="#" style="margin: 0; margin-top: 15px;">Submit</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- registration from starting -->
+    <div class="job-listing-page pd-top-50">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="section-title text-center">
+                        <h2 class="title">Register Now</h2>
+                        <p>Please upload your image and fill in the fields below.</p>
+                    </div>
+                    <div class="job-apply-area">
+                        <form class="riyaqas-form-wrap">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="text-right">
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                                            Add User
+                                          </button>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single-input-wrap">
+                                        <input type="text" class="single-input" placeholder="Shop Name">
+                                        <!-- <label>Shop Name</label> -->
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single-input-wrap">
+                                        <input type="text" class="single-input" placeholder="Place">
+                                        <!-- <label>Place</label> -->
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single-input-wrap">
+                                        <input type="text" class="single-input" placeholder="Phone">
+                                        <!-- <label>Phone</label> -->
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single-input-wrap">
+                                        <input type="text" class="single-input" placeholder="Email">
+                                        <!-- <label>Email</label> -->
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="single-input-wrap">
+                                        <input type="text" class="single-input" placeholder="City">
+                                        <!-- <label>City</label> -->
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="single-input-wrap">
+                                        <input type="text" class="single-input" placeholder="Pincode">
+                                        <!-- <label>Pincode</label> -->
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="single-input-wrap">
+                                        <input type="text" class="single-input" placeholder="Working Hour's">
+                                        <!-- <label>Working Hour's</label> -->
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single-input-wrap">
+                                        <input type="text" class="single-input" placeholder="Lattitude">
+                                        <!-- <label>Lattitude</label> -->
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single-input-wrap">
+                                        <input type="text" class="single-input" placeholder="Longitude">
+                                        <!-- <label>Longitude</label> -->
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single-input-wrap">
+                                        <select name="district" id="" class="single-input">
+                                            <option value="">Thiruvananthapuram</option>
+                                            <option value="">Kollam</option>
+                                            <option value="">Alappi</option>
+                                            <option value="">Kottayam</option>
+                                            <option value="">Pathanamthitta</option>
+                                            <option value="">Idukki</option>
+                                            <option value="">Ernakulam</option>
+                                            <option value="">Thrissur</option>
+                                            <option value="">Palakkad</option>
+                                            <option value="">Malappuram</option>
+                                            <option value="">Calicut</option>
+                                            <option value="">Kannur</option>
+                                            <option value="">Wayanad</option>
+                                            <option value="">Kasargode</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single-input-wrap">
+                                        <select name="category" id="" class="single-input">
+                                            <option value="">Clinic</option>
+                                            <option value="">Hospital</option>
+                                            <option value="">Pharmacy</option>
+                                            <option value="">Sooper Market</option>
+                                            <option value="">Restaurant</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="single-input-wrap">
+                                        <textarea class="single-input" cols="40" placeholder="Address"></textarea>
+                                        <!-- <label>Address</label> -->
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="custom-file riyaqas-file-input-wrap">
+                                        <input type="file" class="riyaqas-file-input" id="sb-file-input">
+                                        <label class="custom-file-label" for="sb-file-input">Upload Your Shop Image</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <a class="btn btn-blue" href="#">Submit</a>
+                                </div> 
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="assets/js/jquery-2.2.4.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
