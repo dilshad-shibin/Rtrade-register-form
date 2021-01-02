@@ -406,6 +406,16 @@
   color: #fff;
 }
 
+.btn-red{
+  background-color: var(--main-color-one);
+  color: #fff;
+}
+
+.btn-green{
+  background: yellowgreen;
+  color: #fff;
+}
+
 .riyaqas-form-wrap .btn {
   height: 48px;
   line-height: 48px;
@@ -428,4 +438,147 @@
   margin-right: 10px;
   color: #97A1B2;
   font-size: 15px;
+}
+
+.list_header{
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+td a{
+  display: inherit !important;
+  height: 30px !important;
+  line-height: 30px !important;
+  padding: 0 30px !important;
+  border-radius: 1rem !important;
+}
+
+td, th{
+  white-space: nowrap !important;
+}
+
+.login_page{
+  background-image: url(../../assets/img/intro.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100%;
+  width: 100%;
+}
+
+.login-wrapper{
+  height: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+@media (min-width: 768px){
+  .col-sm-offset-3 {
+    margin-left: 25%;
+}
+}
+
+@media (min-width: 992px){
+  .col-md-offset-3 {
+    margin-left: 25%;
+}
+}
+
+@media (min-width: 1200px){
+  .col-lg-offset-4 {
+    margin-left: 33.33333333%;
+}
+}
+
+
+.loginpage {
+  padding: 0 50px;
+}
+
+@media (max-width: 767px){
+  .loginpage {
+    padding: 0 30px;
+}
+}
+
+@media (max-width: 992px){
+  .loginpage {
+    padding: 0 15px;
+}
+}
+
+.loginpage, .loginpage form label, .loginpage form, .loginpage .message {
+  color: #333;
+  font-weight: 600;
+}
+
+.login-form-header {
+  padding: 0 15px;
+}
+
+.login-header {
+  display: inline-block;
+  vertical-align: middle;
+  /* padding-left: 15px; */
+}
+
+.color-white {
+  color: #fff !important;
+}
+.bold {
+  font-weight: 700 !important;
+}
+
+.login-header h4 small {
+  color: #eee;
+}
+
+.box.login {
+  background-color: #ffffff;
+  margin: 15px 0;
+  -webkit-box-shadow: 0 2px 28px rgba(0,0,0,.1);
+  box-shadow: 0 2px 28px rgba(0,0,0,1.1);
+  border-radius: 10px;
+}
+
+.box.login .content-body {
+  padding: 5px 20px 30px 20px;
+  background-color: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-top: 0px;
+  -webkit-transition: 800ms;
+  -moz-transition: 800ms;
+  -o-transition: 800ms;
+  transition: 800ms;
+  border-radius: 10px
+}
+
+.no-mb {
+  margin-bottom: 0 !important;
+}
+.no-mt {
+  margin-top: 0 !important;
+}
+
+.loginpage form {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: 0;
+  font-weight: 400;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.loginpage, .loginpage form label, .loginpage form, .loginpage .message {
+  color: #333;
+  font-weight: 600;
+}
+
+.form-group {
+  margin-bottom: 20px;
 }
